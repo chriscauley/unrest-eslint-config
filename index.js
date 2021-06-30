@@ -4,11 +4,12 @@ module.exports = {
     sourceType: 'module',
   },
   extends: ['plugin:vue/vue3-recommended', 'plugin:prettier/recommended'],
-  ignorePatterns: ['node_modules', '**/assets/*', 'public/*'],
+  ignorePatterns: ['node_modules', '**/assets/*', 'public/*', "*.scss"],
   rules: {
     'prettier/prettier': [
       'error',
       {
+        arrowParens: 'always',
         singleQuote: true,
         trailingComma: 'all',
         semi: false,
@@ -33,4 +34,3 @@ module.exports = {
     __dirname: 'readonly',
   },
 }
-
