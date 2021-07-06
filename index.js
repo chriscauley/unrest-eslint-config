@@ -17,7 +17,13 @@ module.exports = {
       },
     ],
     'no-console': ['error', { allow: ['warn', 'error'] }],
-    'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+    'no-unused-vars': [
+      'error',
+      {
+        argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_',
+      }
+    ],
     'react/react-in-jsx-scope': 0,
     'react/display-name': 0,
     'vue/attribute-hyphenation': 0,
