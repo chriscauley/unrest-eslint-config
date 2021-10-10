@@ -4,7 +4,7 @@ module.exports = {
     sourceType: 'module',
   },
   extends: ['plugin:vue/vue3-recommended', 'plugin:prettier/recommended'],
-  ignorePatterns: ['node_modules', '**/assets/*', 'public/*', "*.scss"],
+  ignorePatterns: ['node_modules', '**/assets/*', 'public/*', "*.scss", "*.css", "*.yaml"],
   rules: {
     'prettier/prettier': [
       'error',
