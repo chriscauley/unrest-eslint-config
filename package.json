@@ -1,12 +1,12 @@
 {
   "name": "@unrest/eslint-config",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.18.5",
-    "@vue/cli-plugin-babel": "^5.0.4",
     "@babel/eslint-parser": "^7.18.2",
+    "@vue/cli-plugin-babel": "^5.0.4",
     "eslint": "^8.17.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
